@@ -1,0 +1,23 @@
+body {
+  background-color: #F2D2BD;
+}
+
+/* responsive cards */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}
+
+
+
+
+  
+
+  
