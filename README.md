@@ -13,7 +13,7 @@ Created in ReactJs with the intention of learning how to fetch data from an API.
 ## Overview
 ### Screenshot
 
-![Pokémon Team Screenshot](../project-screenshot/my-pokemon-team.png)
+![Pokémon Team Screenshot](https://github.com/adrvnc/my-pokemon-team/blob/gh-pages/my-pokemon-team.png)
 ### Links
 
 - [GitHub Repo URL](https://github.com/adrvnc/my-pokemon-team)
