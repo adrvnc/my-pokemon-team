@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import PokemonCard from "../components/PokemonCard";
 import ErrorBoundary from "../components/ErrorBoundary";
-import './Style.css';
 import './App.css';
 
+// declares app component and state variables
 const App = () => {
   const [pokemonData, setPokemonData] = useState([]);
 
+  // fetching pokemon data with useEffect 
   useEffect(() => {
     const fetchData = async () => {
       const pokemonNames = ["lucario", "dialga", "palkia", "arcanine", "pidgeot", "heatran"];
@@ -26,9 +27,10 @@ const App = () => {
     fetchData();
   }, []);
 
+  // Rendering components 
   return (
     <div className="tc">
-      <h1>My Pokémon Team</h1>
+      <h1 className="header-font-weight">My Pokémon Team</h1>
       <ErrorBoundary>
         <div className="grid-container">
             {pokemonData.map((pokemon) => (
@@ -44,7 +46,7 @@ const App = () => {
       </ErrorBoundary>
     </div>
   );
-}
+} 
 
 export default App;
 
