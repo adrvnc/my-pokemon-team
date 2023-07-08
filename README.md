@@ -1,6 +1,6 @@
 # Pokémon Team
 
-Created in ReactJs with the intention of learning how to fetch data from an API. 
+A project that demonstrates how to use ReactJS components to create a Pokémon team by fetching data from an API.
 
 ## Table of contents
 - [Overview](#overview)
